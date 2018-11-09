@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AlveolesLibres</class>
+ <widget class="QWidget" name="AlveolesLibres">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>471</width>
+    <height>460</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>AlveolesLibres</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>151</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Numéro d'alvéoles libres</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>50</y>
+     <width>171</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Rangées &amp; colonnes occupées</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonReserver">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>150</y>
+     <width>80</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Réserver &gt;&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonLiberer">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>210</y>
+     <width>80</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;&lt; Libérer</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="listWidgetNumAlveolesLibres">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>80</y>
+     <width>151</width>
+     <height>261</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="listWidgetRangeeColonnesOccup">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>80</y>
+     <width>151</width>
+     <height>261</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonQuitter">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>360</y>
+     <width>281</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Quitter</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonQuitter_2">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>480</y>
+     <width>281</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Quitter</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonReserver_2">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>270</y>
+     <width>80</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Réserver &gt;&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonLiberer_2">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>330</y>
+     <width>80</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;&lt; Libérer</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>170</y>
+     <width>151</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Numéro d'alvéoles libres</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="listWidgetRangeeColonnesOccup_2">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>200</y>
+     <width>151</width>
+     <height>261</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="listWidgetNumAlveolesLibres_2">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>200</y>
+     <width>151</width>
+     <height>261</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>170</y>
+     <width>171</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Rangées &amp; colonnes occupées</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButtonQuitter</sender>
+   <signal>clicked()</signal>
+   <receiver>AlveolesLibres</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>296</x>
+     <y>405</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>404</x>
+     <y>410</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
